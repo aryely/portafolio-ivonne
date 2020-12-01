@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+body{
+    font-family: 'Caveat', cursive;
+    background-color: #00546b;
+}
+
+header{
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-bottom: 120px;
+    background: url(../img/fondo1.png) center no-repeat;
+}
+header h1{
+    color: #00829b;
+}
+header h2{
+    color: #00334c;
+    font-size: 100px;
+    text-align: right;
+    margin-right: 90px;
+    margin-top: 65px;
+    font-style: italic;
+    font-weight: 700;
+}
+header h3{
+    color: #00334c;
+    font-size: 70px;
+    text-align: right;
+    margin-right: 120px;
+    font-style: italic;
+    font-weight: 400;
+}
+header .bg-port-ivon{
+    background: #013e4c;
+}
+header nav .container .navbar-collapse{
+    justify-content: flex-end;
+}
+header nav ul li a{
+    color: #00829b !important;
+    font-size: 30px;
+    margin-left: 20px;
+}
+#inicio p{
+    color: #3ec3ce;
+    font-size: 25px;
+}
+#inicio img{
+    position: absolute;
+    bottom: 1px;
+}
+#habilidades{
+    width: 100%;
+    position: relative;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#habilidades .container h2{
+    text-align: center;
+    font-size: 70px;
+    color: #00334c;
+    font-style: italic;
+    font-weight: 400;
+}
+#habilidades .row1 .col-md-2-pro{
+    width: 18%;
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+    text-align: center;
+}
+#habilidades .row1 .col-md-2-pro h1{
+    text-align: center;
+    font-size: 30px;
+     color: #ff7800;
+}
+#habilidades .row1 .col-md-2-pro h2{
+    text-align: center;
+    font-size: 30px;
+     color: #00c8ff;
+}
+#habilidades .row1 .col-md-2-pro h3{
+    text-align: center;
+    font-size: 30px;
+     color: #ff3a96;
+}
+#habilidades .row1 .col-md-2-pro h4{
+    text-align: center;
+    font-size: 30px;
+     color: #f184ff;
+}
+#habilidades .row1 .col-md-2-pro h5{
+    text-align: center;
+    font-size: 30px;
+     color: #d397ff;
+}
+#habilidades .row2 .col-md-3{
+    width: 20%;
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+}
+#habilidades .row2 .col-md-3 h3{
+    font-size: 40px;
+    color: #00829b;
+    text-align: center;
+}
+#habilidades .row3 .col-md-4{
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;  
+}
+#habilidades .row3 .col-md-4 p{
+    font-size: 25px;
+    color: #00829b;
+    display: inline-block;
+}
+#estudios{
+    width: 100%;
+    position: relative;
+    padding-bottom: 20px;
+}
+#estudios p{
+    font-size: 25px;
+    color: #3ec3ce;
+    display: inline-block;
+}
+#estudios .container h2{
+    text-align: center;
+    font-size: 70px;
+    color: #00334c;
+    font-style: italic;
+    font-weight: 400;
+}
+#estudios .row1 .col-md-6-1{
+    width: 20%;
+    display: inline-block;
+    position: left;
+    padding-left: 10px;
+    text-align: left;
+}
+#estudios .row1 .col-md-6-2{
+    width: 20%;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    float: right;
+}
+#estudios .row2 .col-md-6-1{
+    width: 20%;
+    display: inline-block;
+    position: left;
+    padding-left: 10px;
+    text-align: left;
+}
+#estudios .row2 .col-md-6-2{
+    width: 20%;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    float: right;
+}
+#carrusel h2{
+    text-align: center;
+    font-size: 70px;
+    color: #00334c;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: -50;
+}
+#experiencia{
+    width: 100%;
+    position: relative;
+    padding-bottom: 20px;
+}
+#experiencia p{
+    font-size: 25px;
+    color: #3ec3ce;
+    display: inline-block;
+}
+#experiencia .container h2{
+    text-align: left;
+    font-size: 70px;
+    color: #00334c;
+    font-style: italic;
+    font-weight: 400;
+    margin-top: -100;
+}
+#experiencia .row1 .col-md-6-1{
+    width: 40%;
+    display: inline-block;
+    position: left;
+    padding-left: 10px;
+    text-align: left;
+}
+#experiencia .row1 .col-md-6-2{
+    width: 40%;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    float: right;
+}
+#redes{
+    width: 100%;
+    position: relative;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#redes .row1 .col-md-2-pro{
+    width: 19%;
+    display: inline-block;
+    position: relative;
+    margin-top: 40px;
+    text-align: center;
+}
+/* CÓDIGO RESPONSIVE TABLET  */
+@media screen and (max-width:1024px) and (min-width:1000px){
+    #inicio img{
+        max-width: 100%;
+        margin: 0% 0%;}
+    
+     #habilidades .row1 .col-md-2-pro{
+         width: 30%;}
+     #habilidades .row2 .col-md-3{
+         width: 20%;}
+     #habilidades .row3 .col-md-4{
+         width: 28%;}
+     #estudios .row1 .col-md-6-1{
+         width: 45%;}
+     #estudios .row1 .col-md-6-2{
+         width: 45%;}
+     #estudios .row2 .col-md-6-1{
+         width: 45%;}
+     #estudios .row2 .col-md-6-2{
+         width: 45%;}
+     #experiencia .row1 .col-md-6-1{
+         width: 45%;}
+     #experiencia .row1 .col-md-6-2{
+         width: 45%;}
+     #redes img{
+         max-width: 90%;}
+     #carrusel h2{
+         font-size: 70px;}
+     #experiencia .container h2{
+         font-size: 80px;}
+     header h2{
+         font-size: 100px;
+     margin-right: 20px;}
+     header h3{
+         font-size: 70px;
+         margin-right: 20px;}
+}
+/* CÓDIGO RESPONSIVE PHONE */
+@media screen and (max-width:568px) and (min-width:320px){
+    #inicio img{
+       max-width: 80%;
+       margin: -70% 0%;}
+    #inicio p{
+       margin-top: 220px;}
+    #habilidades .row1 .col-md-2-pro{
+        width: 50%;}
+    #habilidades .row2 .col-md-3{
+        width: 70%;}
+    #habilidades .row3 .col-md-4{
+        width: 80%;}
+    #estudios .row1 .col-md-6-1{
+        width: 100%;}
+    #estudios .row1 .col-md-6-2{
+        width: 100%;}
+    #estudios .row2 .col-md-6-1{
+        width: 100%;}
+    #estudios .row2 .col-md-6-2{
+        width: 100%;}
+    #experiencia .row1 .col-md-6-1{
+        width: 100%;}
+    #experiencia .row1 .col-md-6-2{
+        width: 100%;}
+    #redes img{
+        max-width: 80%;}
+    #redes .row1 .col-md-2-pro{
+        width: 18%;}
+    #carrusel h2{
+        font-size: 45px;}
+    #experiencia .container h2{
+        font-size: 60px;}
+    header h2{
+        font-size: 60px;
+    margin-right: 20px;}
+    header h3{
+        font-size: 35px;
+        margin-right: 20px;}
+}
+@media screen and (max-width:319px) and (min-width:280px){
+    #inicio img{
+       max-width: 80%;
+       margin: -70% 0%;}
+    #inicio p{
+       margin-top: 220px;}
+    #habilidades .row1 .col-md-2-pro{
+        width: 50%;}
+    #habilidades .row2 .col-md-3{
+        width: 70%;}
+    #habilidades .row3 .col-md-4{
+        width: 80%;}
+    #estudios .row1 .col-md-6-1{
+        width: 100%;}
+    #estudios .row1 .col-md-6-2{
+        width: 100%;}
+    #estudios .row2 .col-md-6-1{
+        width: 100%;}
+    #estudios .row2 .col-md-6-2{
+        width: 100%;}
+    #experiencia .row1 .col-md-6-1{
+        width: 100%;}
+    #experiencia .row1 .col-md-6-2{
+        width: 100%;}
+    #redes img{
+        max-width: 80%;}
+    #redes .row1 .col-md-2-pro{
+        width: 18%;}
+    #carrusel h2{
+        font-size: 45px;}
+    #experiencia .container h2{
+        font-size: 60px;}
+    header h2{
+        font-size: 60px;
+    margin-right: 20px;}
+    header h3{
+        font-size: 35px;
+        margin-right: 20px;}
+}
+@media screen and (max-width:990px) and (min-width:600px){
+    #inicio img{
+        max-width: 100%;
+        margin: 30% 0%;}
+    
+     #habilidades .row1 .col-md-2-pro{
+         width: 25%;}
+     #habilidades .row2 .col-md-3{
+         width: 30%;}
+     #habilidades .row3 .col-md-4{
+         width: 26%;}
+     #estudios .row1 .col-md-6-1{
+         width: 45%;}
+     #estudios .row1 .col-md-6-2{
+         width: 45%;}
+     #estudios .row2 .col-md-6-1{
+         width: 45%;}
+     #estudios .row2 .col-md-6-2{
+         width: 45%;}
+     #experiencia .row1 .col-md-6-1{
+         width: 45%;}
+     #experiencia .row1 .col-md-6-2{
+         width: 45%;}
+     #redes img{
+         max-width: 90%;}
+     #carrusel h2{
+         font-size: 70px;}
+     #experiencia .container h2{
+         font-size: 80px;}
+     header h2{
+         font-size: 100px;
+     margin-right: 20px;}
+     header h3{
+         font-size: 70px;
+         margin-right: 20px;}
+}
